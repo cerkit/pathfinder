@@ -20,7 +20,7 @@
     <tag group="wCritMin" tag="20"/>
     <pickreq thing="cInvestiga"/>
     </thing>
-  <thing id="mCerkit1" name="Lover&apos;s Cloak" description="This cloak was given to you by a past lover. As such, you have a special attachment to it." compset="Armor" summary="This cloak was given to you by a past lover">
+  <thing id="mCerkit1" name="Family Cloak" description="This cloak was given to you by a relative on their death bed. As such, you have a special attachment to it." compset="Armor" summary="This cloak was given to you by a relative on their death bed">
     <fieldval field="gCost" value="50"/>
     <fieldval field="gWeight" value="10"/>
     <fieldval field="shortname" value="Lvr Clk"/>
