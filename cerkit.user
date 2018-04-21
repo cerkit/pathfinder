@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="cerkit1" name="Investigator&apos;s Sword Cane" description="This sword cane is similar to a regular sword cane, but it is only sold by merchants dealing with investigators. The merchants&apos; suppliers for these weapons design and build the weapon specifically with investigators in mind.\n\nThis slender light blade lies within a wooden container that serves as both its scabbard and hiding place.\n\nBenefit: You can draw the blade from the cane as a swift action (or a free action if you have the Quick Draw feat). An observer must make a DC 20 Perception check to realize an undrawn sword cane is a weapon rather than a walking stick; the DC decreases to 10 if the observer is able to handle the weapon. You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a sword cane sized for you, even though it isn&apos;t a light weapon. You can&apos;t wield a sword cane in two hands in order to apply 1-1/2 times your Strength modifier to damage." compset="Weapon" summary="A sword cane specifically for the investigator class" uniqueness="useronce">
+    <fieldval field="gWeight" value="4"/>
+    <fieldval field="gSizeCost" value="35"/>
+    <fieldval field="atmBonus" value="1"/>
+    <fieldval field="shortname" value="Inv Swrd Cn"/>
+    <tag group="wProfReq" tag="Simple"/>
+    <tag group="wFtrGroup" tag="BladeLight"/>
+    <tag group="wClass" tag="OneHanded"/>
+    <tag group="wCategory" tag="Melee"/>
+    <tag group="wCritMult" tag="2"/>
+    <tag group="wMain" tag="1d6"/>
+    <tag group="wType" tag="S"/>
+    <tag group="EquipType" tag="Wood"/>
+    <tag group="Helper" tag="Finesse"/>
+    <tag group="Helper" tag="NormalOnly"/>
+    <tag group="IsWeapon" tag="wSwordCane"/>
+    <tag group="EquipType" tag="Metal"/>
+    <tag group="wCritMin" tag="20"/>
+    <pickreq thing="cInvestiga"/>
+    </thing>
+  <thing id="mCerkit1" name="Lover&apos;s Cloak" description="This cloak was given to you by a past lover. As such, you have a special attachment to it." compset="Armor" summary="This cloak was given to you by a past lover">
+    <fieldval field="gCost" value="50"/>
+    <fieldval field="gWeight" value="10"/>
+    <fieldval field="shortname" value="Lvr Clk"/>
+    <tag group="ArmorCheck" tag="1"/>
+    <tag group="ArmorArcFl" tag="10"/>
+    <tag group="PieceArcFl" tag="10"/>
+    <tag group="ArmorClass" tag="Light"/>
+    <tag group="Helper" tag="Valuable"/>
+    <tag group="ArmorAC" tag="3"/>
+    <tag group="EquipType" tag="Cloth"/>
+    <tag group="Helper" tag="AutoEquip"/>
+    <tag group="ArmorPiece" tag="PieceTorso"/>
+    <tag group="Helper" tag="PFSUserOK"/>
+    <tag group="Helper" tag="CoreCampOK"/>
+    <tag group="ArmorMaxDx" tag="5"/>
+    <pickreq thing="drAttached"/>
+    </thing>
+  </document>
