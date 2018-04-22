@@ -23,7 +23,7 @@
   <thing id="mCerkit1" name="Family Cloak" description="This cloak was given to you by a relative on their death bed. As such, you have a special attachment to it." compset="Armor" summary="This cloak was given to you by a relative on their death bed">
     <fieldval field="gCost" value="50"/>
     <fieldval field="gWeight" value="10"/>
-    <fieldval field="shortname" value="Lvr Clk"/>
+    <fieldval field="shortname" value="Fmly Clk"/>
     <tag group="ArmorCheck" tag="1"/>
     <tag group="ArmorArcFl" tag="10"/>
     <tag group="PieceArcFl" tag="10"/>
