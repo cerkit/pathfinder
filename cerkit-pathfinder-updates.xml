@@ -1,3 +1,3 @@
 <document signature="Lone Wolf Updates" version="1">
-	<update name="Cerkit Pathfinder updates" date="2018/04/22:1610" size="1331" description="additional content for Pathfinder." uniqueid="0" filetype="3" download="https://github.com/cerkit/pathfinder/blob/master/cerkit-pathfinder.hl?raw=true" website="https://github.com/cerkit/pathfinder" companyurl="https://github.com/cerkit/pathfinder" priority="99" major="1" minor="1" patch="" folder="cerkit" special="cerkit-pathfinder" dynamic=""/>
+	<update name="Cerkit Pathfinder updates" date="2018/04/22:1610" size="1331" description="additional content for Pathfinder." uniqueid="0" filetype="3" download="https://github.com/cerkit/pathfinder/blob/master/cerkit-pathfinder.hl?raw=true" website="https://github.com/cerkit/pathfinder" companyurl="https://github.com/cerkit/pathfinder" priority="99" major="1" minor="1" patch="2" folder="cerkit" special="cerkit-pathfinder" dynamic=""/>
 </document>
