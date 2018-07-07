@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document signature="Hero Lab Data">
-  <thing id="cerkit1" name="Investigator&apos;s Sword Cane" description="This sword cane is similar to a regular sword cane, but it is only sold by merchants dealing with investigators. The merchants&apos; suppliers for these weapons design and build the weapon specifically with investigators in mind.\n\nThis slender light blade lies within a wooden container that serves as both its scabbard and hiding place.\n\nBenefit: You can draw the blade from the cane as a swift action (or a free action if you have the Quick Draw feat). An observer must make a DC 20 Perception check to realize an undrawn sword cane is a weapon rather than a walking stick; the DC decreases to 10 if the observer is able to handle the weapon. You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a sword cane sized for you, even though it isn&apos;t a light weapon. You can&apos;t wield a sword cane in two hands in order to apply 1-1/2 times your Strength modifier to damage." compset="Weapon" summary="A sword cane specifically for the investigator class" uniqueness="useronce">
+  <thing id="CKTW01" name="Investigator&apos;s Sword Cane" description="This sword cane is similar to a regular sword cane, but it is only sold by merchants dealing with investigators. The merchants&apos; suppliers for these weapons design and build the weapon specifically with investigators in mind.\n\nThis slender light blade lies within a wooden container that serves as both its scabbard and hiding place.\n\nBenefit: You can draw the blade from the cane as a swift action (or a free action if you have the Quick Draw feat). An observer must make a DC 20 Perception check to realize an undrawn sword cane is a weapon rather than a walking stick; the DC decreases to 10 if the observer is able to handle the weapon. You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a sword cane sized for you, even though it isn&apos;t a light weapon. You can&apos;t wield a sword cane in two hands in order to apply 1-1/2 times your Strength modifier to damage." compset="Weapon" summary="A sword cane specifically for the investigator class" uniqueness="useronce">
     <fieldval field="gWeight" value="4"/>
     <fieldval field="gSizeCost" value="35"/>
     <fieldval field="atmBonus" value="1"/>
@@ -20,7 +20,7 @@
     <tag group="wCritMin" tag="20"/>
     <pickreq thing="cInvestiga"/>
     </thing>
-  <thing id="mCerkit1" name="Family Cloak" description="This cloak was given to you by a relative on their death bed. As such, you have a special attachment to it." compset="Armor" summary="This cloak was given to you by a relative on their death bed">
+  <thing id="CKTA01" name="Family Cloak" description="This cloak was given to you by a relative on their death bed. As such, you have a special attachment to it." compset="Armor" summary="This cloak was given to you by a relative on their death bed">
     <fieldval field="gCost" value="50"/>
     <fieldval field="gWeight" value="10"/>
     <fieldval field="shortname" value="Fmly Clk"/>
@@ -37,5 +37,20 @@
     <tag group="Helper" tag="CoreCampOK"/>
     <tag group="ArmorMaxDx" tag="5"/>
     <pickreq thing="drAttached"/>
+    </thing>
+  <thing id="CKTG201" name="Bastet&apos;s Moccasins" description="These Varisian mocassins are made by the Callanova family and are popular among the more sneaky individuals.\n\nWhen worn, the moccasins provide a +5 compentence bonus to all Stealth checks. In addition, once per day, the moccasins may be called upon to enhance any melee attack made by the wearer to make an insightful shot. Activating this ability is a free action, and once activated, your next melee attack against a target is made as if that target is flat footed against you - this allows a rogue to gain the benefit of sneak attack with this attack. If you don&apos;t make the melee attack within 1 round of activating this power, the insight fades and is wasted for that day." compset="Gear" summary="Allows the wearer to move silently">
+    <fieldval field="gCost" value="3500"/>
+    <fieldval field="gCraftCost" value="1750"/>
+    <fieldval field="gWeight" value="2"/>
+    <fieldval field="gCraftDC" value="15"/>
+    <tag group="Helper" tag="ShowSpec"/>
+    <tag group="Helper" tag="EquipAvail"/>
+    <tag group="Helper" tag="GearSize"/>
+    <tag group="Hero" tag="EqpFoot"/>
+    <tag group="Helper" tag="EquipMag"/>
+    <tag group="gType" tag="Clothing"/>
+    <eval phase="PreLevel"><![CDATA[if (field[gIsEquip].value <> 0) then
+  hero.child[skStealth].field[BonComp].value = maximum(hero.child[skStealth].field[BonComp].value, 5)
+endif]]></eval>
     </thing>
   </document>
