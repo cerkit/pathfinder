@@ -1,7 +1,7 @@
 <document signature="Lone Wolf Updates" version="1">
-	<update name="Cerkit Pathfinder updates (V1.1.2)" 
-	date="2018/04/22:1622" 
-	size="1331" 
+	<update name="Cerkit Pathfinder updates (V1.2.1)" 
+	date="2018/07/07:1138" 
+	size="1907" 
 	description="additional content for Pathfinder." 
 	uniqueid="42" 
 	filetype="3" 
@@ -10,8 +10,8 @@
 	companyurl="https://github.com/cerkit/pathfinder" 
 	priority="99" 
 	major="1" 
-	minor="1" 
-	patch="2" 
+	minor="2" 
+	patch="1" 
 	folder="pathfinder" 
 	special="CerkitPathfinder" 
 	dynamic=""/>
